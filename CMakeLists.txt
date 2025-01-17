@@ -14,7 +14,6 @@ option(BUILD_PYTHON_BINDINGS "Build python bindings" OFF)
 
 # 查找 Eigen 库
 find_package(Eigen3 REQUIRED)
-set(PCL_DIR "/home/ecarx/pcl/install/share/pcl-1.13")
 find_package(PCL REQUIRED)
 # 添加 GLOG 库
 find_package(glog REQUIRED)
